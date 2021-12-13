@@ -1,0 +1,48 @@
+
+public class LinkedList {
+	Node head ;
+	
+	LinkedList(Node head){
+		this.head = head;
+	}
+	
+	// Method to add a new Node to the end of the LinkedList
+	void append(int data) {
+		if(head == null) {
+			head = new Node(data);
+			return;
+		}
+		Node currentNode = head;
+		while(currentNode.next != null) {
+			currentNode = currentNode.next;
+		}
+		currentNode.next = new Node(data);
+	}
+	
+	// Method to add a new head to the LinkedList
+	void reappend (int data) {
+		if (head == null) { 
+			head = new Node(data);
+		return;}
+		Node newHead = new Node(data);
+		newHead.next = head;
+		head = newHead;
+	}
+	
+	void remove(int data){
+		if(head==null) {
+			return;
+		}
+		
+	}
+}
+
+class Node{
+	int value;
+	Node next;
+	
+	public Node(int value) {
+		this.value = value;
+	}
+}
+
