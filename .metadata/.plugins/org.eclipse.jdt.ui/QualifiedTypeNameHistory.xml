@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="ArrayListImplementation"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Node"/>
+    <fullyQualifiedTypeName name="QueueUsingArrayAndLinkedList.QueueUsingLinkedListImpl"/>
+    <fullyQualifiedTypeName name="QueueUsingArrayAndLinkedList.QueueUsingLinkedListImpl.Node"/>
 </qualifiedTypeNameHistroy>
